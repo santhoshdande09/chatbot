@@ -3,5 +3,5 @@ services:
     name: ai-career-chatbot
     env: python
     buildCommand: ""
-    startCommand: "python app.py"
+    startCommand: "py app.py"
     autoDeploy: true
