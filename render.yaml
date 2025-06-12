@@ -1,9 +1,7 @@
 services:
   - type: web
     name: ai-career-chatbot
-    runtime: python
+    env: python
     buildCommand: ""
     startCommand: "python app.py"
-    envVars:
-      - key: GEMINI_API_KEY
-        sync: false
+    autoDeploy: true
